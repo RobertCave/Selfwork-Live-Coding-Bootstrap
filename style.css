@@ -1,0 +1,206 @@
+/* Colori del sito webinar retrogaming 
+Variabili
+*/
+
+
+:root {
+    --giallo: #EADB0E;
+    --bianco: #FEFEFF;
+    --bluscuro: #1B1540;
+    --grigio: #212529;
+    --viola: #9D22A8;
+    
+}
+
+.bianco {
+    color: var(--bianco);
+}
+.giallo {
+    color: var(--giallo);
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    
+}
+
+/* --------------- */
+/* Sections */
+/* --------------- */
+
+/* Sezione Principale */
+.principale{
+    width: auto;
+    background-image: url(./media/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 78vh;
+  
+}
+
+.img-principale{
+    max-width: 400px;
+    align-items: right;
+    
+}
+
+.bottone-principale {
+    border-radius: 25px;
+    border: 2px solid var(--giallo);
+    padding: 10px 20px;
+    width: 300px;
+    height: 50px; 
+    color: var(--giallo);
+    text-align: center;
+}
+
+.bottone-principale:hover {
+    background-color: var(--bluscuro);
+    color: var(--giallo);
+}
+
+.bottone-principale a {
+    color: var(--giallo);
+    text-decoration: none;
+}
+
+/* -------------- */
+/* Seconda scheda */
+/* -------------- */
+.seconda {
+    width: auto;
+    background-color: #1B1540;
+    min-height: 50vh;
+    padding: 50px;
+}
+
+
+/* -------------- */
+/* Terza scheda */
+/* -------------- */
+.terza {
+    width: auto;
+    background-image: url(./media/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 78vh;
+}
+
+.contattaci {
+    background-color: var(--bluscuro);
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    height: auto; 
+    color: var(--giallo);
+}
+
+
+.form-contattaci{
+
+    margin-top: 50px;
+}
+
+
+.input-contattaci {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    color: grey;
+    background-color: var(--bluscuro);
+    border: none;
+    border-bottom: 1px solid var(--viola);
+
+}
+
+.bottone-form {
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 50px; 
+    color: var(--bluscuro);
+    background-color: var(--giallo);
+    text-align: center;
+}
+
+.bottone-form:hover {
+    background-color: var(--viola);
+    color: var(--giallo);
+}
+
+.bottone-form a {
+    color: var(--bluscuro);
+    text-decoration: none;
+}
+
+
+
+/* -------------- */
+/* Quarta scheda  */
+/* -------------- */
+.quarta {
+    width: auto;
+    background-color: var(--bluscuro);
+    min-height: 50vh;
+    padding: 50px;
+}
+
+/* -------------- */
+/* Quinta scheda  */
+/* -------------- */
+
+.quinta {
+    width: auto;
+    background-image: url(./media/bg-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 78vh;
+}
+
+
+/* -------------- */
+/* Foooter        */
+/* -------------- */
+
+
+.footer-finale {
+
+    background-color: var(--grigio);
+    color: var(--bianco);
+    text-align: center;
+}
+
+.footer-finale a {
+
+    text-decoration: none;
+    color: var(--bianco);
+     
+}
+
+.footer-finale a:hover {
+
+    color: var(--giallo);
+     
+}
+/*  ---------------Media Screen--------------------- */
+
+
+
+@media screen and (max-width: 576px) { 
+    
+    
+    .img-ridurre{
+        
+        max-width: 200px;
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    .centrare-sm{
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    
+}

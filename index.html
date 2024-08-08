@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+    
+    <!--
+    
+    Selfwork Live Coding Bootstrap
+    Replica una pagina web utilizzando tutte le conoscenze apprese sinora:
+    
+    Zip media Progetto :
+    media progetto webina retrogaming.zip 3.47 MB
+    
+    
+    All'interno del file zip troverai tutto l'occorrente per realizzare la pagina web.
+    La pagina da realizzare è il file chiamato "screencapture webinar retrogaming" -->
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webinar retrogaming - Selfwork Live Coding Bootstrap</title>
+    
+    <!-- Fonts di google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    
+    
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    
+    
+    <!-- Link ad un css personale -->
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    
+    
+    
+    
+    
+    <!-- suddivisione usata per centrare nella pagina
+    |---|---------|---|
+    | 2 |    8    | 2 |
+    |---|---------|---|
+    -->
+    
+    <section class="principale container-fluid">
+        
+        <div class="row">
+            
+            <!-- Spazio vuoto per centrare la colonna di 2 -->
+            <div class="col-sm-12 col-md-2"></div>
+            
+            <!-- Spazio centrale da 8 con tutti gli elementi -->
+            <div class="col-sm-12 col-md-8">
+                
+                <!-- Una nuova riga all'interno dello spazio centrale da 8  -->
+                <div class="row mt-5">
+                    
+                    <!-- Nuova riga con suddivisione |-----8---|--4-|   all'interno della Row centrata  
+                    -->
+                    <div class="col-md-8 my-4 centrare-sm">
+                        <!-- Colonna con testo e elementi con margine superiore e inferiore -->
+                        <img src="./media/aulab-logo_y.png" alt="Logo Aulab" class="img-fluid" width="100px">
+                        <p class="bianco">WEBMINAR GRATUITO</p>
+                        <div class="display-5 bianco">Metti le mani al codice divertendoti</div>
+                        <p class="bianco">Scopri come si sviluppa un videogame anni 2000</p>
+                        <span class="giallo display-6"><i class="fa-solid fa-calendar-days"></i> 25 Luglio 2023</span>
+                        <p class="bianco " style="margin-bottom: 50px;">ORE 18:30</p>
+                        <span class="bottone-principale centrare-sm"><a href="#">ISCRIVITI GRATUITAMENTE</a></span>  
+                    </div>
+                    <div class="col-md-4 centrare-sm">
+                        <img src="./media/game arcade.png" alt="Arcade" width="400px" class="img-ridurre mt-1">
+                    </div>
+                    
+                    
+                    <!-- Fine Una nuova riga all'interno dello spazio centrale da 8  -->
+                </div>
+                
+                <!-- FINE Spazio centrale da 8 con tutti gli elementi -->    
+            </div>
+            
+            <!-- Spazio vuoto per centrare la colonna di 2 -->
+            <div class="col-12 col-md-2"></div>
+            
+        </div>  
+    </section>
+    
+    
+    
+    <!--     
+    Seconda sezione 
+    
+    suddivisione usata per centrare nella pagina
+    |--|---|-----|--|
+    | 2| 3 |  5  | 2|
+    |--|---|-----|--|
+    -->
+    
+    
+    <section class="seconda container-fluid">
+        <div class="row d-flex">
+            
+            <!-- Spazio vuoto-->
+            <div class="col-12 col-md-2"></div>
+            
+            <div class="col-12 col-md-3 centrare-sm">
+                <img src="./media/ico-gaming-def.png" alt="Icona ico-gaming-def" height="300px" class="img-ridurre mt-1">
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="display-6 bianco my-4 centrare-sm">Impara le basi di HTML, CSS, Javascript e PHP in modo semplice e divertente</div>
+                <p class="bianco centrare-sm">Se da un lato l'Ocse evidenzia per l'italia un tasso di disoccupazione giovanile in aumento dal 28,7% pre-
+                    pandemia al 55.0% nel gennalo del 2041, dall'altro l'osservatorio delle Competenze Digitali stima che nel nostro paese c'è una richiesta di oltre 100.000 protessionisti nel settore tech. Le aziende sono alla continua ricerca di personale in ambito IT per accelerare il processo di trastormazione alcitale, ma non ci sono abbastanza candidati formati per soddisfare la domanda.</p>
+                </div>
+                
+                <!-- Spazio vuoto-->
+                <div class="col-12 col-md-2"></div>
+                
+            </div>
+            <!-- Seconda sezione -->
+        </section>
+        
+        
+        
+        
+        
+        <!--     
+        Terza sezione 
+        
+        suddivisione usata per centrare nella pagina
+        |---|-------|---|
+        |-3-|---6---|-3-|
+        |---|-------|---|   
+        
+        -->
+        
+        <section class="terza container-fluid pb-5">
+            
+            <div class="row">
+                <!-- Spazio vuoto-->
+                <div class="col-md-3"></div>
+                
+                <!-- form -->
+                <div class="col-md-6 mt-5">
+                    <div class="contattaci">
+                        <p class="display-6 bianco centrare-sm mt-5">Iscriviti gratuitamente al webinar online</p>
+                        
+                        <!-- Spero di non esagerare con bootstrap -->
+                        <div class="row mt-5">
+                            <div class="col-2">
+                                <span class="giallo display-1"><i class="fa-solid fa-clock"></i></span>
+                            </div>
+                            <div class="col-10">
+                                <div class="bianco h3 align-middle " >25 Luglio 2023</div>
+                                <div class="giallo"> ORE 18:30 </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        <div class="form-contattaci">
+                            <input type="text" value="Nome*" class="input-contattaci">
+                            <input type="text" value="Cognome*" class="input-contattaci">
+                            <input type="text" value="e-mail*" class="input-contattaci">
+                            
+                            <div class="row">
+                                <div class="col-4">
+                                    <input type="text" value="Nazione" class="input-contattaci">
+                                </div>
+                                <div class="col-8">
+                                    <input type="text" value="+39" class="input-contattaci">
+                                </div>
+                            </div>
+                            
+                            <input type="checkbox"> <span class="bianco"> Accetto termini e condizioni (GDPR) - <a href="#">Leggi qui</a></span>
+                            <div class="bottone-form mt-5 mb-5"><a href="#">ISCRIVITI GRATUITAMENTE</a></div>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+                <!-- Spazio vuoto-->
+                <div class="col-md-3"></div>
+            </section><!-- terza sezione-->
+            
+            
+            
+            
+            <!--     
+            Quarta sezione 
+            
+            suddivisione usata per centrare nella pagina
+            |--|---|-----|--|
+            | 2| 3 |  5  | 2|
+            |--|---|-----|--|
+            -->
+            
+            
+            <section class="quarta container-fluid">
+                <div class="row d-flex">
+                    
+                    <!-- Spazio vuoto-->
+                    <div class="col-12 col-md-2"></div>
+                    
+                    <div class="col-12 col-md-3 centrare-sm">
+                        <img src="./media/logo-aulab-futur.png" alt="Logo Aulab" height="300px" class="img-ridurre mt-1">
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="display-6 bianco my-4 centrare-sm">Chi è Aulab</div>
+                        <p class="bianco centrare-sm">Con i nostri corsi abbiamo aiutato più di 10.000 studenti e
+                            studentesse a muovere i primi passi nel mondo digital&tech. Nel 2016 abbiamo lanciato l'Hackademy, la prima scuola di Coding in Italia con un metodo strutturato e registrato che forma in breve tempo le figure professionali
+                            più richieste nel mercato del lavoro
+                        </p>
+                    </div>
+                    
+                    <!-- Spazio vuoto-->
+                    <div class="col-12 col-md-2"></div>
+                    
+                </div>
+                <!-- quarta sezione -->
+            </section> 
+            
+            
+            <!--  Quinta sezione 
+            
+            suddivisione usata per centrare nella pagina
+            |---|---------|---|
+            | 2 |    8    | 2 |
+            |---|---------|---|
+            -->
+            
+            <section class="quinta container-fluid">
+                <div class="row">
+                    
+                    <div class="col-12 col-md-2"></div> 
+                    <div class="col-12 col-md-8">
+                        
+                        <!-- Divisione a metà dello spazio col-8 di sopra -->
+                        <div class="row my-5 mx-5">
+                            <div class="col-12 col-md-6 mt-5 centrare-sm">
+                                <p class="bianco">Lo speaker</p>
+                                <p class="giallo display-6">Marco Insabato</p>
+                                <p class="bianco">Dopo aver completato hackademy e entrato a tar parte del team education di aulab, prima come tutor e poi come docente. Insegna principalmente Front-end ma e apoassionato al tuito cio che riguarda la programmazione. si e specializzato in Javascript insegnandolo e lavorando su numerosi progetti di sviluppo</p>
+                            </div>
+                            
+                            <div class="col-12 col-md-6 centrare-sm">
+                                <img src="./media/picture-marco-insabato-3.png" alt="Marco Insabato" width="400px" class="img-ridurre mt-1">
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-12 col-md-2"></div><!-- Spazio vuoto -->
+                    
+                    
+                    
+                </div>
+                
+                
+                
+            </section> <!-- quinta parte -->
+            
+            
+            <footer>
+                <div class="container-fluid">
+                    <div class="row footer-finale">
+                        <p>Copyright 2023 Aulab Tutti i diritti riservati • P.IVA IT07647440721 - 
+                            <a href="#">Policy</a> - <a href="#">Codice etico</a>
+                        </p>
+                    </div>
+                </div>
+                
+            </footer>
+            
+            
+            
+            <!-- FontAwesome -->
+            <script src="https://kit.fontawesome.com/9e1ced726b.js" crossorigin="anonymous"></script>
+            
+            <!-- Bootstrap js -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </body>
+        </html> 
